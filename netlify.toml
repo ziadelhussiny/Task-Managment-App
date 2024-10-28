@@ -2,6 +2,3 @@
   base = ""  # This is the base directory where Netlify installs dependencies and runs your build command
   publish = "build"  # This is the directory where the built files are located
   command = "npm run build"  # The command to build your project
-
-[functions]
-  directory = "netlify/functions"  # This is where Netlify looks for your functions
