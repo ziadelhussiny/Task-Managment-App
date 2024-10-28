@@ -2,4 +2,4 @@
   base = ""  # This is the base directory where Netlify installs dependencies and runs your build command
   publish = "build"  # This is the directory where the built files are located
   command = "npm run build"  # The command to build your project
-  environment = { NODE_VERSION = "16.x" }
+  environment = { NODE_VERSION = "16.14.0" }
